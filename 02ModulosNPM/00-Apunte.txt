@@ -43,6 +43,7 @@ Ejemplos de pquetes globales:
 
 
 Depuración con el módulo Debugger
+https://nodejs.org/dist/latest-v14.x/docs/api/debugger.html
 Se coloca la palabra reservada "debugger" (sin comillas), en donde se quiere colocar
 el pointbreak y pausar la ejecución del programa.
 Para iniciar la ejecución en el modo de depuración se coloca la siguiente instrucción en la consola:
