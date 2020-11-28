@@ -1,0 +1,42 @@
+El Node Package Manager es el gestor de paquetes de Node.js... y de todo JavaScript.
+
+comandos:
+    npm -v      Nos indica la versión de NPM instalada en el ordenador.
+
+
+Instalando paquetes
+Tipos de instalación:
+    • Única -   npm install nombre-paquete (no se recomenda).
+    • Global -  npm install nombre-paquete -g.
+    • Como dependencia del proyecto:
+        npm install nombre-paquete --save
+    • Como dependencia de desarrollo:
+        npm install nombre-paquete --save-dev
+
+La configuración de los módulos de Node.JS se encuentra en el archivo package.json,
+en donde estara todo lo que debe ejecutar para el correcto funcionamiento de la aplicación.
+
+Cuando descargamos un proyecto de Node.JS, lo primero que debemos de hacer es ejecutar este
+archivo de configuración, para que descargue todas las dependencias del proyecto.
+
+
+Para ignorar algun fichero de cualquier indole, así como directorios, debemos agregarlos en el
+archivo de .gitignore
+
+
+Paquetes globales
+Se instalan locamente en nuestro ordenador.
+    • Estan disponibles en todo momento.
+    • Son paquetes que nos ayudarán con tareas administrativas, como:
+        ► Monitoreo
+        ► Depuración
+        ► Automatización
+        ► Copilación de código
+        ► Etc
+
+Ejemplos de pquetes globales:
+    ► node-inspector
+    ► supervision
+    ► nodemon
+    ► forever
+    ► pm2
