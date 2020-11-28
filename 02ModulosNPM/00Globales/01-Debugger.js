@@ -7,10 +7,9 @@ const port = 3000;
 var server;
 
 function webServer(req, res) {
-    res.statusCode = 200;
-    res.setHeader('Content-Type', 'text/html');
-    debugger;
+    res.writeHeader(200, 'Content-Type', 'text/html');
     res.end('<h1> Hola Node.js </h1>');
+    debugger;
 }
 
 server = http.createServer( webServer );

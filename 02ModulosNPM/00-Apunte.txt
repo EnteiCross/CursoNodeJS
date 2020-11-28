@@ -40,3 +40,21 @@ Ejemplos de pquetes globales:
     ► nodemon
     ► forever
     ► pm2
+
+
+Depuración con el módulo Debugger
+Se coloca la palabra reservada "debugger" (sin comillas), en donde se quiere colocar
+el pointbreak y pausar la ejecución del programa.
+Para iniciar la ejecución en el modo de depuración se coloca la siguiente instrucción en la consola:
+    • node debug nombre_del_modulo.js
+Ademas este modo tiene varios comandos a utilizar en la consola:
+    • Stepping
+        ► cont / c  Continua la ejecución.
+        ► next / n  Siguiente instrucción (paso por paso).
+        ► step / s  Step in
+        ► out  / o  Step out
+        ► pause     Pone en espera la ejecución del código.
+
+    • Breakpoints
+
+
