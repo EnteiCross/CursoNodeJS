@@ -12,7 +12,7 @@ const port = 3000;
 var server;
 
 function webServer(req, res) {
-    res.writeHeader(200, 'Content-Type', 'text/html');
+    res.writeHead(200, {'Content-Type': 'text/html'});
     debugger;
     res.end('<h1> Hola Node.js </h1>');
 }
