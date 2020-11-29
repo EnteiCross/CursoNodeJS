@@ -1,0 +1,24 @@
+{
+  "name": "uploader",
+  "version": "0.0.1",
+  "description": "Aplicación para subir archivos con Node.js al servidor.",
+  "main": "Uploader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Uploader.js",
+    "restart": "nodemon Uploader.js"
+  },
+  "keywords": [
+    "upload",
+    "files",
+    "node.js",
+    "formidable",
+    "fs-extra"
+  ],
+  "author": "Luis Bayliss",
+  "license": "MIT",
+  "dependencies": {
+    "formidable": "^1.2.2",
+    "fs-extra": "^9.0.1"
+  }
+}

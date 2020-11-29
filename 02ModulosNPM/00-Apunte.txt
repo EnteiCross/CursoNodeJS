@@ -70,3 +70,21 @@ pm2
    Es un gestor de procesos de producción para aplicaciones construidas con Node.js
 
 forever y pm2 son similares, pero pm2 tiene una interfaz de monitoreo más amigable.
+
+
+Dependencias del proyecto
+    • Una dependencia es un paquete externo al core de Node.
+    • Son desarrollados por la comunidad.
+    • Al instalarlos deben quedar registrados en el archivo de configuración (package.json).
+
+package.json
+    • Para crearlo se utiliza el comando "npm init" (sin comillas).
+    • Instalar paquetes como dependencias:
+        npm install nombre-paquete --save
+    • Instalar dependencias de un proyecto:
+        npm install
+    • Se debe revisar el Semantic Versioning apra el correcto versionado de nuestros paquetes.
+
+Al declarar variables con el identificador "let" (sin comillas), se tratara de una variable
+local dentro del contexto del bloque de código.
+
