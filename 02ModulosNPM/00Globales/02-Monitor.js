@@ -13,7 +13,7 @@ function webServer(req, res) {
         res.end(data);
     }
 
-    res.writeHead(200, {'Content-Type': 'text/plain'});
+    res.writeHead(200, {'Content-Type': 'text/html'});
     fs.readFile('./assets/index.html', readFile);
 }
 

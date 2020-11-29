@@ -59,3 +59,14 @@ Ademas este modo tiene varios comandos a utilizar en la consola:
     • Breakpoints
 
 
+Para ejecutar el modo de supervision con nodemon se ejecuta en la terminal con el comando
+nodemon nombre_del_modulo.js
+
+forever
+    Es una simple herramienta del CLI que nos permite ejecutar scripts de Node de manera
+    continua.
+
+pm2
+   Es un gestor de procesos de producción para aplicaciones construidas con Node.js
+
+forever y pm2 son similares, pero pm2 tiene una interfaz de monitoreo más amigable.
