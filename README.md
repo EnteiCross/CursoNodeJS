@@ -28,3 +28,6 @@ de comenzar a proponerme **ejercicios para reforzar** el aprendizaje.
 
 • Se comienza a darle un poco más de estilo al archivo README.md, ademas
   de cambiar los caracteres ► por •.
+
+• Se ejecuta nodemon con un módulo de node.js par agilizar el desarrollo.
+• Se instalan los módulo "forever" y "pm2" de forma global.
