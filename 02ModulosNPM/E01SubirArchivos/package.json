@@ -1,0 +1,24 @@
+{
+  "name": "e01subirarchivos",
+  "version": "0.0.1",
+  "description": "Se trata de un pequeño proyecto que permita subir multiples archivos al servidor con Node.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "restart": "nodemon index.js"
+  },
+  "keywords": [
+    "upload",
+    "files",
+    "node.js",
+    "formidable",
+    "fs-extra",
+    "practica"
+  ],
+  "author": "Luis Bayliss",
+  "license": "MIT",
+  "dependencies": {
+    "formidable": "^1.2.2",
+    "fs-extra": "^9.0.1"
+  }
+}

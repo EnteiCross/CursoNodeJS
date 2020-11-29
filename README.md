@@ -10,6 +10,8 @@
   Se agrega el comando restart para inicializar con nodemon.  
   Se agrega el archivo .gitignore para ignorar la carpeta de node_modules.
 
+• Hacer el proyecto de subir archivo, pero esta vez que sea plural.
+
 28 - Noviembre - 2020
 Comenzare a llevar una bitacora con las cosas que he visto, ademas
 de comenzar a proponerme **ejercicios para reforzar** el aprendizaje.
