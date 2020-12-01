@@ -20,5 +20,9 @@
   "dependencies": {
     "formidable": "^1.2.2",
     "fs-extra": "^9.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "stylus": "^0.54.8"
   }
 }

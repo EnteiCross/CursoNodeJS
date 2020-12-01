@@ -1,6 +1,10 @@
 # CursoNodeJS
 ##Código del curso de Node.js que estoy llevando.
 
+30 - Noviembre - 2020
+• Se reaunida video 25 (Promesas y Callbacks).
+• Se crea carpeta 03Promesas.
+
 29 - Noviembre - 2020
 • Se comienza el video 22, viendo las dependencias del proyecto y package.json
 • Se crea carpeta 01SubirArchivo (video 22 y 23).
@@ -9,8 +13,9 @@
   Se agrega el comando start en el package.json del proyecto 01SubirArchivo.
   Se agrega el comando restart para inicializar con nodemon.  
   Se agrega el archivo .gitignore para ignorar la carpeta de node_modules.
-
 • Hacer el proyecto de subir archivo, pero esta vez que sea plural.
+• Se instala el módulo stylus y gulp como dependencia de desarrollo.
+• Se comienza a ver el video 25 (Promesas y Callbacks).
 
 28 - Noviembre - 2020
 Comenzare a llevar una bitacora con las cosas que he visto, ademas

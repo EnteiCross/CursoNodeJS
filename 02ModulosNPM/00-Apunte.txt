@@ -88,3 +88,25 @@ package.json
 Al declarar variables con el identificador "let" (sin comillas), se tratara de una variable
 local dentro del contexto del bloque de código.
 
+
+Dependencias de desarrollo
+    • se tratan de paquetes externos al core, desarrollados por la comunidad.
+    • Permiten facilitar y optimizar las tareas comunes para el desarrollo o publicaciónd e la aplicación.
+    • Para instalar se hace con el comando:
+        npm install nombre-paquete --save-dev
+    • Normalmente se utiliza para el desarrollo de front end.
+
+
+Node.js maneja la asincronía utilizando "callbacks"
+    • Son continuaciones explícitas como funciones, cuando termina ejecuta otra función.
+    • Son faciles de entender e implementar, asi como tambien son familiares para un programador de JS.
+    • Son muy flexibles, y tienen un mecanismo universal con la asincronía.
+    • Sin embargo tiene un problema, llamado "Callback Hell".
+
+Promesa = Flujo de ejecución
+    • Se trata de una alternativa para modelar la asincronía.
+    • Tienen una construcción explícita del flujo de ejecución.
+    • Separación en bloques consecutivos.
+    • Tiene una gestion de errores más controlada.
+    • Contiene una combinación de diferentes flujos asincrono.
+    
