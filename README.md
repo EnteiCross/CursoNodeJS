@@ -1,9 +1,14 @@
 # CursoNodeJS
 ##Código del curso de Node.js que estoy llevando.
 
+ 2 - Diciembre - 2020
+• Se comienza video 25 (Proemsas con Q).
+
 30 - Noviembre - 2020
 • Se reaunida video 25 (Promesas y Callbacks).
 • Se crea carpeta 03Promesas.
+  Se instala el módulo q.
+  Se hacer programación con promesas para visualizar el callback hell.
 
 29 - Noviembre - 2020
 • Se comienza el video 22, viendo las dependencias del proyecto y package.json
