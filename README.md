@@ -1,8 +1,13 @@
 # CursoNodeJS
 ##Código del curso de Node.js que estoy llevando.
 
+ 3 - Diciembre - 2020
+• Se comienza video 27 (Promesas con ES6)
+  Quiero hacer enfasis que probablemente no cambie nada, pues utilice funcionalidad
+  de ES6 en los archivos anteriores, por lo que vere si habra algun cambio significactivo.
+
  2 - Diciembre - 2020
-• Se comienza video 25 (Proemsas con Q).
+• Se comienza video 26 (Proemsas con Q).
 
 30 - Noviembre - 2020
 • Se reaunida video 25 (Promesas y Callbacks).
