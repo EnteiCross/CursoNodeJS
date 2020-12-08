@@ -18,3 +18,35 @@ Principales frameworks para Node.js
     • Total.js
     • Partial
     • Flatiron
+
+Express es estrictamente un microframework de servicios web.
+    • Sencillo, flexible y minimalista.
+    • Muy popular.
+    • Se adapta a la filosofía de Node.
+    • Es muy similar a Sinatra, Sylex, Flask, SPark, etc.
+
+Express nos ayudara con:
+    • Rutas
+    • Parámetros
+    • Formularios y subidas de ficheros
+    • Cookies
+    • Sesiones
+    • Templates
+
+Express no nos ayudara con:
+    • Base de datos / ORM
+    • Autenticación de usuarios
+    • Seguridad
+    • Migraciones
+    • Deploment
+    • Organización del código
+
+Concretamente Express:
+    • Trabaja sobre el módulo http del core de Node.js
+    • Procesa la petición a través de middlewares:
+        ► Asocia las rutas a los manejadores
+        ► Procesa los objetos req y res
+        ► Visualiza los Templates
+    • Nosotros escogeremos qué middlewares queremos usar, y en qué orden.
+        ► Middleware es código que se ejecuta entre la petición del usuario y la respuesta del servidor.
+

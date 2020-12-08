@@ -3,6 +3,7 @@
 
 7 - Diciembre - 2020
 • Se comienza video 28 (Frameworks Web), pause el curso para estudiar para el examen de ingles.
+• Se comienza video 29 (Introducción a Express.js).
 
  3 - Diciembre - 2020
 • Se comienza video 27 (Promesas con ES6)
