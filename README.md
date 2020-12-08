@@ -1,6 +1,9 @@
 # CursoNodeJS
 ##Código del curso de Node.js que estoy llevando.
 
+7 - Diciembre - 2020
+• Se comienza video 28 (Frameworks Web), pause el curso para estudiar para el examen de ingles.
+
  3 - Diciembre - 2020
 • Se comienza video 27 (Promesas con ES6)
   Quiero hacer enfasis que probablemente no cambie nada, pues utilice funcionalidad

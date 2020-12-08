@@ -1,0 +1,20 @@
+
+Framework web más importante de Node.JS es Express
+Express es un framework para aplicaciones web.
+
+Un Framework es un marco de herramientas diseñado para apoyar el desarrollo
+de sitios dinámicos, aplicaciones y servicios web.
+
+Principales frameworks para Node.js
+    • Express
+    • Sails
+    • Hapi
+    • Locomotive
+    • Koa
+    • Kraken
+    • Express.io
+    • SocketStream
+    • Geddy
+    • Total.js
+    • Partial
+    • Flatiron
