@@ -1,7 +1,11 @@
 # CursoNodeJS
 ##Código del curso de Node.js que estoy llevando.
 
-7 - Diciembre - 2020
+ 8 - Diciembre - 2020
+• Se comienza video 30 (Básicos en Express.js).
+  ► Se hace un Hola mundo desde express.
+
+ 7 - Diciembre - 2020
 • Se comienza video 28 (Frameworks Web), pause el curso para estudiar para el examen de ingles.
 • Se comienza video 29 (Introducción a Express.js).
 

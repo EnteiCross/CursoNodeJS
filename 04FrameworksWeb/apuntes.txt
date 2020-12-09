@@ -50,3 +50,5 @@ Concretamente Express:
     • Nosotros escogeremos qué middlewares queremos usar, y en qué orden.
         ► Middleware es código que se ejecuta entre la petición del usuario y la respuesta del servidor.
 
+
+Se debe instalar el módulo de express de mánera global, con "npm i express -g".
