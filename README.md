@@ -1,6 +1,13 @@
 # CursoNodeJS
 ##Código del curso de Node.js que estoy llevando.
 
+10 - Diciembre - 2020
+• Se comienza video 32 (Generador de Express.js).
+
+
+ 9 - Diciembre - 2020
+• Se comienza video 31 (Middlewares en Express.js).
+
  8 - Diciembre - 2020
 • Se comienza video 30 (Básicos en Express.js).
   ► Se hace un Hola mundo desde express.

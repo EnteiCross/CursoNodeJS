@@ -52,3 +52,29 @@ Concretamente Express:
 
 
 Se debe instalar el módulo de express de mánera global, con "npm i express -g".
+
+
+Se instalaran los módulos cookie-parser y cookie-session para hacer un contador de visitas con middlewares.
+Se crea un contador valiendose del uso de las cookies.
+
+Middleware
+    Son módulos "plug and play" que se pueden apilar arbitrariamente en cualquier orden y proveen
+    cierta funcionalidad, se dividen en Filtros y Proveedores.
+    Filtros: Procesan tráfico entrante/saliente, pero no responden a ninguna petición. Por ejemplo bodyParser.
+    Proveedores: Ofrecen respuestas automáticas a algún tipo de petición. Por ejemplo static.
+
+Escribir middlewares en express:
+• Una función que recibe 3 parámetros: req, res, next.
+• Al terminar su tarea, tiene que invocar a next():
+    - Sin parámetro: Se invoca al siguiente middleware del stack de middlewares.
+    - Con parámetro: Se cambia la ruta a lo que se pase como parámetro.
+• Dos maneras de activar middlewares:
+    - Globalmente (app.use), activos para toda la app.
+    - Locales para ciertas rutas.
+
+
+Express se ayuda de paquetes adicionales, para mantener su core simple y minimalista.
+
+Existe un generador de proyecto para Express llamado Express-Generator, el cual es un módulo de Node.js
+con el comando express nombreDelProyecto, genera un proyecto con directorios y ficheros ordenados listos
+para utilizarse.
