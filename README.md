@@ -1,6 +1,13 @@
 # CursoNodeJS
 ##Código del curso de Node.js que estoy llevando.
 
+13 - Diciembre - 2020
+• Se comienza video 33 (Templates Engines para Express.js).
+• Se comienza video 34 (Configuración de Aplicación Express.js).
+
+12 - Diciembre - 2020
+• Me puse a leer un poco la documentación de Express.js.
+
 10 - Diciembre - 2020
 • Se comienza video 32 (Generador de Express.js).
 

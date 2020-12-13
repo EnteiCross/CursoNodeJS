@@ -1,0 +1,13 @@
+
+
+express.static
+Es un middleware el cual sirve un fichero estatico y esta basado sobre serve-static.
+serve-static es un módulo el cual funje como middleware para servir ficheros desde el directorio raíz.
+Cuando no encuentra un archivo, en vez de enviar una respuesta 404, llamara al siguiente middleware dentro
+del stack de middlewares (next()).
+    Propiedades de static que tengo dudas:
+    • immutable:    Dice que in/habilita la respuesta del Cache-Control, menciona algo acerca del maxAge,
+                    ¿Qué es el maxAge al que hace referencia?
+    • index:        Envia la dirección especificada del archivo index, si esta en false deshabilitara
+                    el directorio de indexación.
+    • maxAge:       Establece la propiedad max-age del Cache-Control en milisegundos.

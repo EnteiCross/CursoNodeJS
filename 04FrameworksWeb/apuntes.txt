@@ -78,3 +78,17 @@ Express se ayuda de paquetes adicionales, para mantener su core simple y minimal
 Existe un generador de proyecto para Express llamado Express-Generator, el cual es un módulo de Node.js
 con el comando express nombreDelProyecto, genera un proyecto con directorios y ficheros ordenados listos
 para utilizarse.
+
+Templates Engines
+Express tiene un mecanismo para renderizar plantillas HTML.
+para llamar a un template engine es con la siguiente instrucción:
+    • res.render(view, [locals], callback)
+        ► view: Ruta del template.
+        ► locals: Valores a interpolar
+        ► callbacks: function(err, html) {...}
+
+Existen multiples templates engines como:
+    • Jade          • Handlebars    • Underscore.js
+    • EJS           • doT.js        • Pug
+    • Mustache      • Nunjucks      • Hogan.js
+    • Swig          • 
