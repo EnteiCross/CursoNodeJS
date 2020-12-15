@@ -4,6 +4,7 @@
 13 - Diciembre - 2020
 • Se comienza video 33 (Templates Engines para Express.js).
 • Se comienza video 34 (Configuración de Aplicación Express.js).
+• Se comienza video 35 (Jade Básico [ahora Pug.js]).
 
 12 - Diciembre - 2020
 • Me puse a leer un poco la documentación de Express.js.

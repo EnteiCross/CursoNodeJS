@@ -2,6 +2,7 @@
 
 var express = require('express'),
     favIcon = require('serve-favicon'),
+    morgan = require('morgan'),
     jade    = require('jade'),
     routes  = require('./routes/index'),
     faviconUrl = `${__dirname}/public/img/node-favicon.png`,
@@ -18,6 +19,7 @@ app
     .set('port', port)
     // Ejecutando middlewares
     .use( favIcon(faviconUrl) )
+    .use( morgan('dev') )
     .use(publicDir)
     // Ejecutando el middleware Enrutador
     .use('/', routes)
