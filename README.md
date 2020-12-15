@@ -1,6 +1,9 @@
 # CursoNodeJS
 ##Código del curso de Node.js que estoy llevando.
 
+14 - Diciembre 2020
+• Se comienza video 36 (Jade Avanzado [ahora Pug.js]).
+
 13 - Diciembre - 2020
 • Se comienza video 33 (Templates Engines para Express.js).
 • Se comienza video 34 (Configuración de Aplicación Express.js).

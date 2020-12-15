@@ -1,7 +1,65 @@
 extends ./layout.jade
 
 block content
-    h1
-        a(href="#{link}", target="_blank")= title
+    article#jade.container
+        h1
+            a(href="#{link}", target="_blank")= title
 
-    p= description
+        p= description
+
+    article.container
+        h2 Estructura básica de Jade
+        p Este archivo HTML es generado con el view engine Jade.
+        p
+            |Para concatenar contenido
+            |en varias líneas
+            |se usa el pipe '|'
+    
+        include logo
+
+        // Interpolación
+        p.
+            Si te gusta la forma en que Jade genera código HTML
+            puedes leer la documentación de 
+            #[a(href="https://jade-lang.com/api", target="_blank") API],
+            la referencia del #[a(href="https://jade-lang.com/reference", target="_blank") lenguaje]
+            y de la #[a(href="https://jade-lang.com/command-linde", target="_blank") línea de comandos].
+        br
+        button#presioname.boton Presióname
+        script.
+            //alert('JavaScript ejecutado desde Jade')
+            document.querySelector('#presioname').onclick = () => {
+                alert('Haz presionado el botón desde Jade con JavaScript')
+            }
+        -var nombre = 'Jade'
+        p Hola #{nombre}
+
+        -var fecha = new Date()
+        -var hora = fecha.getHours()
+
+        if (hora < 12)
+            p La hora #{hora} es antes del meridiano (AM).
+        else
+            p La hora #{hora} es posterior del meridiano (PM).
+
+        -var estaciones = ['Primavera', 'Verano', 'Otoño', 'Invierno']
+
+        h2 Estaciones del año
+        ol
+            each estacion in estaciones
+                li #{estacion}
+
+    //- Los mixins son funciones en Jade.
+    mixin mesesEstacionesMexico(estacion, meses)
+        div.item
+            h3 #{estacion}
+            ul
+                each mes in meses
+                    li #{mes}
+
+    article.container
+        h2 Estaciones del año en México
+        +mesesEstacionesMexico(estaciones[0], ['Abril', 'Mayo', 'Junio'])
+        +mesesEstacionesMexico(estaciones[1], ['Julio', 'Agosto', 'Septiembre'])
+        +mesesEstacionesMexico(estaciones[2], ['Octubre', 'Noviembre', 'Diciembre'])
+        +mesesEstacionesMexico(estaciones[3], ['Enero', 'Febrero', 'Marzo'])

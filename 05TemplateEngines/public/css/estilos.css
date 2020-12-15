@@ -11,3 +11,41 @@ a { color: #80BD01; }
 a:hover { color: rgba(128, 189, 1, .5); }
 
 li { list-style-position: inside;}
+
+#jade {
+    border: medium solid #80bd01;
+    box-shadow: .25rem .25rem .5rem  rgba(255, 255, 255, .5);
+    font-size: 2rem;
+}
+
+.container {
+    margin: auto;
+    padding: 1rem;
+    width: 80%;
+}
+
+#logo-node {
+    margin: auto;
+    height: 150px;
+    width: 450px;
+    background: transparent url('../img/zeus-wall.jpg') no-repeat center;
+    background-size: contain;
+}
+
+.boton {
+    color: #1D1D1D;
+    background-color: #80BD01;
+    border: 0;
+    font-size: 2rem;
+}
+
+.boton:hover {
+    color: #80BD01;
+    background-color: #DDD;
+    cursor: pointer;
+}
+
+.item {
+    float: left;
+    width: 25%;
+}
